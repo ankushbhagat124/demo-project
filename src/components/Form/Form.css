@@ -1,0 +1,39 @@
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+.container label{
+    text-align: left;
+    font-weight: bold;
+    display: block;
+}
+.container input{
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    /* border: 1px solid white; */
+    box-sizing: border-box;
+    display: inline-block;
+}
+.container button{
+    background: #f1356d;
+    color: white;
+    border: 0;
+    margin: 8px 0;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.container button:hover{
+    background: #f1356d;
+    color: white;
+    border: 0;
+    margin: 8px 0;
+    padding: 10px;
+    font-size: 1.2em;
+    transition: 0.2s;
+    border-radius: 8px;
+    cursor: pointer;
+}
